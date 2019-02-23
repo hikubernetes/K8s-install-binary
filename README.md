@@ -29,8 +29,9 @@
 
   * Etcd 三节点高可用部署
   * Apiserver，Controller-manager，Scheduler，部署在192.168.175.3
-  * Kubelet，Kube-proxy部署在192.168.175.4,192.168.175.5。同时Kube-proxy启用ipvs
+  * Kubelet，Kube-proxy部署在192.168.175.4,192.168.175.5
+  * 同时Kube-proxy启用ipvs
 
 * k8s架构图
 
-  ![k8s架构 (2)](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84%20(2).png)
+  ![k8s架构](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84.png)

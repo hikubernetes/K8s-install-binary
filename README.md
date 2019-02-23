@@ -1,4 +1,4 @@
-# k8s-install-binary
+k8s-install-binary
 
 - 本文主要介绍如何使用官方提供的二进制包部署K8S（V1.13.3）集群。同时具有以下几大特性
 
@@ -34,20 +34,8 @@
 
 * k8s架构图
 
-<<<<<<< HEAD
   ![](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84.png)
-=======
-  ![kubernetes](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84.png)
+
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
->>>>>>> a5dbdabcb3530ba917d44d87ea9125caf710880e
+
+ 

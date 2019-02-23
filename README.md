@@ -10,7 +10,7 @@
 
 - k8s架构图
 
-  ![](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjnsZ-jj9LgAhVL7GEKHeReCH0QjRx6BAgBEAU&url=https%3A%2F%2Fdaihainidewo.github.io%2Fblog%2Fk8s-%25E6%259E%25B6%25E6%259E%2584%2F&psig=AOvVaw363YeraP4hj__THBqKJ7wg&ust=1551019085126296)
+  ![kubernetes](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84.png)
 
 
 

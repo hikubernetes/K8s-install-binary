@@ -1,4 +1,4 @@
-k8s-install-binary
+####k8s-install-binary
 
 - 本文主要介绍如何使用官方提供的二进制包部署K8S（V1.13.3）集群。同时具有以下几大特性
 

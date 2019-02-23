@@ -10,7 +10,7 @@
 
 - k8s架构图
 
-  ![](C:\Users\86180\Desktop\20107062oNprEAL4ks.png)
+  ![20107062oNprEAL4ks](C:\Users\86180\Desktop\20107062oNprEAL4ks.png)
 
 
 

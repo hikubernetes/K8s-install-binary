@@ -12,11 +12,6 @@ typora-copy-images-to: images
   - ETCD高可用集群
   - Kube-proxy 启用ipvs
 
-- k8s架构图
-
-  ![k8s架构 (2)](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84%20(2).png)
-
-
 
 * 集群分布架构图
 
@@ -26,4 +21,6 @@ typora-copy-images-to: images
   | worker | node01   | 192.168.175.4 |
   | worker | node02   | 192.168.175.5 |
 
-* 
+* k8s架构图
+
+  ![k8s架构 (2)](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84%20(2).png)

@@ -93,5 +93,5 @@
   - [官网下载](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.13.md#downloads-for-v1133)，需要能科学上网
   - [我的文件服务器](https://sw.hiecho.cn/k8s/k8s-install-v1.13.3.tar.gz)
 
-#####注意：以上操作所有节点都必须执行，执行完成，重启各个节点。
+### 注意：以上操作所有节点都必须执行，执行完成，重启各个节点。
 

@@ -14,8 +14,6 @@ typora-copy-images-to: images
 
 - k8s架构图
 
-  ![kubernetes](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84.png)
-
   ![k8s架构 (2)](https://github.com/hikubernetes/k8s-install-binary/blob/master/images/k8s%E6%9E%B6%E6%9E%84%20(2).png)
 
 

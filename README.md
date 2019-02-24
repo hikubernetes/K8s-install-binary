@@ -38,4 +38,12 @@
 
   
 
- 
+#  k8s部署链接
+
+- [集群初始化](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/init.md)
+- [CA证书制作](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/ca-make.md)
+- [ETCD集群部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/etcd.md)
+- [Master节点部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/master.md)
+- [Node节点部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/node.md)
+- [Flannel网络二进制部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/flannel.md)
+

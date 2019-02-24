@@ -1,6 +1,6 @@
 # CA证书制作
 
-- 安装cfssl
+- ### 安装cfssl
 
 ```
 [root@master ~]# cd /opt/kubernetes/software/
@@ -16,7 +16,7 @@
 [root@master ~]# scp /opt/kubernetes/bin/cfssl* node02:/opt/kubernetes/bin
 ```
 
-- 初始化cfssl
+- ### 初始化cfssl
 
   ```
   [root@master src]# mkdir ssl && cd ssl
@@ -24,7 +24,7 @@
   [root@master ssl]# cfssl print-defaults csr > csr.json
   ```
 
-- 创建用来生成ca证书的json配置文件
+- ### 创建用来生成ca证书的json配置文件
 
   ```
   [root@master ssl]# vim ca-config.json
@@ -48,7 +48,7 @@
   }
   ```
 
-- 创建用来生成ca证书签名请求的（csr）json配置文件
+- ### 创建用来生成ca证书签名请求的（csr）json配置文件
 
   ```linux
   [root@master ssl]# vim ca-csr.json
@@ -70,7 +70,7 @@
   }
   ```
 
-- 生成CA证书（ca.pem）和秘钥（ca-key.pem）
+- ### 生成CA证书（ca.pem）和秘钥（ca-key.pem）
 
   ```
   [root@ master ssl]# cfssl gencert -initca ca-csr.json | cfssljson -bare ca
@@ -82,7 +82,7 @@
   -rw-r--r-- 1 root root 1359 Mar  4 14:09 ca.pem
   ```
 
-- 分发证书
+- ### 分发证书
 
   ```
   [root@ master ssl]# cp ca.csr ca.pem ca-key.pem ca-config.json /opt/kubernetes/ssl

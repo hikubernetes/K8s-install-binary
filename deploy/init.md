@@ -1,6 +1,6 @@
-#### 系统初始化	
+# 系统初始化	
 
-* 关闭selinux
+* ### 关闭selinux
 
   ```
   [root@master ~]# setenforce 0
@@ -8,13 +8,13 @@
   SELINUX=disabled
   ```
 
-* 关闭firewalld
+* ### 关闭firewalld
 
   ```
   [root@master ~]# systemctl stop firewalld && systemctl disable firewalld
   ```
 
-* 关闭swap
+* ### 关闭swap
 
   ```
   [root@master ~]# swapoff -a
@@ -22,7 +22,7 @@
   #/dev/mapper/centos-swap swap                    swap    defaults        0 0
   ```
 
-* ntp校对时间
+* ### ntp校对时间
 
   ```
   [root@master ~]# yum install ntp -y
@@ -31,7 +31,7 @@
 
 
 
-* 配置内核参数以及加载ipvs
+* ### 配置内核参数以及加载ipvs
 
   ```
   [root@master ~]vim /etc/sysctl.conf
@@ -74,7 +74,7 @@
   EOF
   ```
 
-* 安装docker
+* ### 安装docker
 
   ```
   [root@master ~]# wget http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo -O /etc/yum.repos.d/docker-ce.repo
@@ -83,13 +83,14 @@
   [root@master ~]systemctl start docker && systemctl enable docker
   ```
 
-- 创建部署目录
+- ### 创建部署目录
 
   ```
   [root@master ~]mkdir -p /opt/kubernetes/{cfg,bin,ssl,log,software}
   ```
 
-- 下载软件包
+- ### 下载软件包
+
   - [K8S官网下载](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.13.md#downloads-for-v1133)，需要能科学上网
   - [我的文件服务器](https://sw.hiecho.cn/k8s/k8s-install-v1.13.3.tar.gz) ，版本1.13.3
 

@@ -46,4 +46,12 @@
 - [Master节点部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/master.md)
 - [Node节点部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/node.md)
 - [Flannel网络二进制部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/flannel.md)
+- [验证集群](https://github.com/hikubernetes/K8s-install-binary/blob/master/deploy/check.md)
+
+# plugin 部署
+
+- [Coredns部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/coredns/README.md)
+
+- [Flannel部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/flannel/README.md)
+- [ingress-nginx部署](https://github.com/hikubernetes/K8s-install-binary/blob/master/ingress-nginx/README.md)
 
